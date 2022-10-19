@@ -15,7 +15,7 @@ function enterClicked() {
   const rate = parseInt(document.getElementById("hourly-rate").value)
 
   //process
-  const takeHomeSalar = hours * rate * (1.0 - 0.18)
+  const takeHomeSalary = hours * rate * (1.0 - 0.18)
   const INCOMETAX = hours * rate * 0.18
 
   //output
