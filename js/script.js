@@ -22,5 +22,5 @@ function enterClicked() {
   document.getElementById("pay").innerHTML =
     "Your pay will be: $" + takeHomeSalary.toFixed(2)
   document.getElementById("income-tax").innerHTML =
-    "The government will take: $" + takeHomeSalary.toFixed(2)
+    "The government will take: $" + INCOMETAX.toFixed(2)
 }
